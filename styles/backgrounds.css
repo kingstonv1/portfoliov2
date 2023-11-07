@@ -3,13 +3,22 @@ body, html {
     margin: 0;
 }
 
+.backgrounds {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
 .bg {
     height: 100%;
     width: 100%;
-    position: fixed;
+
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     z-index: -1;
     
     filter: blur(8px);
@@ -18,4 +27,8 @@ body, html {
 
 .image1 {
     background-image: url('/assets/backgrounds/stars.jpg');
+}
+
+.image2 {
+    background-image: url('/assets/backgrounds/mountains.jpg');
 }
