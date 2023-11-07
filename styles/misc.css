@@ -7,3 +7,7 @@ body {
     justify-content: center;
     padding-top: 10rem;
 }
+
+.screen {
+    height: 100vh;
+}
